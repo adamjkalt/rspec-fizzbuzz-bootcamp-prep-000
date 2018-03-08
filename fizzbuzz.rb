@@ -8,3 +8,5 @@ def fizzbuzz (int)
   else
     puts int
 end
+
+fizzbuzz(100)
