@@ -1,5 +1,5 @@
 def fizzbuzz
-  1.upto(100) do |i|
+  1.upto(100) do |int|
   if (int % 3 == 0 && int % 5 == 0)
     puts "FizzBuzz"
   elsif int % 3 == 0
@@ -7,5 +7,5 @@ def fizzbuzz
   elsif int % 5 == 0
     puts "Buzz"
   else
-    puts nil
+    puts int
 end
