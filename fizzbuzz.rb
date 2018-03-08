@@ -1,11 +1,10 @@
-
-def fizzbuzz
-number = gets()
-puts(number)
-if number == % 3
-  puts ('fizz')
-elsif number == % 5
-  puts ('buzz')
-elsif number == %15
-  puts ('fizzbuzz')
+def fizzbuzz (int)
+  if (int % 3 == 0 && int % 5 == 0)
+    puts "FizzBuzz"
+  elsif int % 3 == 0
+    puts "Fizz"
+  elsif int % 5 == 0
+    puts "Buzz"
+  else
+    puts int
 end
